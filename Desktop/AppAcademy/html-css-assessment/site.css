@@ -1,8 +1,6 @@
 * {
     box-sizing: border-box;
-    padding: 0%;
-    margin: 0%;
-    border: 1px solid red;
+    
 }
 
 
@@ -54,12 +52,55 @@ input, select, textarea{
 }
 
 .card {
-  width: 344px;
+  padding          : 10pt;
+    height           : auto;
+    width            : 320px;
+    background-color : white;
+    border-radius    : 10pt;
+    box-shadow       : 5px 5px 10px 0 rgba(0, 0, 0, 0.3);
+    }
+  .card_banner{
+    display: flex;
+  flex-wrap: wrap;
   }
   
-  .desert{
-    height: 194px;
-  }
+  #desert {
+      border           : 1px solid black;
+      width            : auto;
+      height           : 196px;
+      text-align       : center;
+      margin-left      : 5px;
+      margin-right     : auto;
+      border-radius    : 10px;
+      }  
    p{
     padding: 16px;
   }
+  #title
+    {
+      padding          : 16px;
+      font-size        : 22px;
+      font-family      : Georgia, 'Times New Roman', Times, serif;
+      color            : #000;
+     
+     
+      }  
+
+h2{  padding          : 16px;
+    font-size        : 11px;
+    font-family      : Georgia, 'Times New Roman', Times, serif;
+    color            : #232f34;
+    margin-left: 90px;
+  }
+
+  #facepic {
+    text-align       : left;
+    width            : 40px;
+    height: auto;
+    margin:            auto;
+    border-radius    : 25px;  
+  }
+
+  
+
+  
