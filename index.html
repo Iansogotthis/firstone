@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>App Academy HTML/CSS Assessment</title>
+  <link href="site.css" rel="stylesheet">
+</head>
+
+<body>
+  <form action="/pets" method="post">
+   
+    
+    
+          
+
+      <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="pet_name">
+      </div>
+
+      <div>
+          <label for="type">Type</label>
+          <select id="role" name="pet_type">
+              <option value="cat">Cat</option>
+              <option value="dog">Dog</option>
+              <option value="hamster">Hamster</option>
+              <option value="other">Other</option>
+              <option value="Zebra">Zebra</option>
+
+          </select>
+      </div>
+      
+      <div>
+          <label for="bio">Biography</label>
+              <textarea id="bio" name="bio"></textarea>
+      </div>
+
+      <div>
+           <label for="owner-email">Owner's Email</label>
+               <input type="email" id="owner-email" name="email_address">
+       </div>
+
+       <div>
+          <button id = "new-pet-submit-button" type="submit">Create New Pet</button>      
+          <button type="reset">Reset</button>
+</div>
+
+
+</form>
+
+
+  <div class ="card"> 
+            <div class="card_image_container">
+                <img id="desert" src="./images/desert.jpg" alt="Landscape of Desert" />
+            </div>
+            
+            <div class="card_image_container2">
+                <img id="facepic" src="./images/person-avatar.jpg" alt="Profile Picture"/>
+            </div>
+            
+            <div class="card_content">
+                <div class= 'card-banner'>
+                    <h1>Title goes here</h1>
+                    <h2>Secondary text</h2>
+                </div>
+                <div class = "card_info">
+                    <p>
+                    "Greyhound divisively hello coldly wonderfully marginally far upon excluding."
+                    </p>
+                </div>
+            </div>  
+    </div>
+</body>
